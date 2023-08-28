@@ -13,6 +13,120 @@
 
         /* Add your CSS script below */
 
+        body {
+            background-image: url("images/justin_bg.jpg");
+
+        }
+        div {
+            margin-left:auto;
+            margin-right: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 90%;
+        }
+        .header-box {
+            border-top:dotted blue 5px;
+            border-bottom: dotted blue 5px;
+            border-left: solid blue 5px;
+            border-right: solid blue 5px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            line-height: 160%;
+        }
+        .header-box h1 {
+            letter-spacing: 0.7em;
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+        .middle-box {
+            border: dotted red 8px;
+            background-color: yellow;
+            line-height: 180%;
+            padding: 10px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .middle-box h1 {
+            margin-left:auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border:dotted 3px blue;
+            text-align: center;
+            background-color: pink;
+            width:50%;
+            padding: 10px;
+        }
+        p:nth-child(3) {
+            text-align: center;
+            background-color: aqua;
+            font-style: italic;
+        }
+        .middle-box a:link {
+            color: rgb(206, 134, 0);
+            text-decoration: none;
+        }
+        .middle-box a:hover {
+            background-color: yellow;
+        }
+        .bottom-box {
+            border: 4px solid green;
+            border-radius: 20px;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+        .bottom-box h2 {
+            text-align: center;
+        }
+        .bottom-box ul {
+            list-style-position: inside;
+            list-style-image: url('images/justin_list_button.png');
+        }
+        .bottom-box li {
+            border-bottom-style: dotted;
+            padding: 5px;
+        }
+        .love-box {
+            border: 5px solid purple;
+            padding: 20px;
+        }
+        .love-box h2 {
+            border: 3px dotted red;
+            background-color: pink;
+            text-align: center;
+        }
+        .button {
+            background-color: black;
+            color: white;
+            width: 25%;
+            height: 40px;
+            font-size: 20px;
+        }
+        .form-field label{
+            display: block;
+        }
+        .form-field input{
+            width: 60%;
+            height: 40px;
+        }
+        .form-field textarea {
+            display: block;
+            width: 60%;
+            height: 50px;
+        }
+        .form-field {
+            margin-left: 0px;
+        }
+        .footer-box {
+            width: 100%;
+            text-align: center;
+            background-color: grey;
+            color: white;
+        }
+        
     </style>
 </head>
 <body>
@@ -50,7 +164,7 @@
             <ul>
                 <li>Talented</li>
                 <li>Handsome</li>
-                <li>He is single married</li>
+                <li>He is <span style="color:red; font-style: italic;text-decoration: line-through;">single</span> <span style="color:blue; font-weight: bold;">married</span></li>
             </ul>
         </div>
 
